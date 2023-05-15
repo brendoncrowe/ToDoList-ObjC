@@ -6,6 +6,7 @@
 //
 
 #import "SceneDelegate.h"
+#import "ItemsViewController.h"
 
 @interface SceneDelegate ()
 
@@ -29,8 +30,13 @@
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName: @"Main" bundle: nil];
     
     // 3. get an instance of "ItemsViewController
+    ItemsViewController *itemsVC = [storyboard instantiateViewControllerWithIdentifier: @"ItemsViewController"];
     
     // 4. declare a navigation controller
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController: itemsVC];
+    
+    // 5. set the window's root view controller
+    [_window setRootViewController: navController];
     
     [_window makeKeyAndVisible];
     

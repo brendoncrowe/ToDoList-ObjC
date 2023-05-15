@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		408A62B32A12B33600E169DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 408A62B22A12B33600E169DE /* AppDelegate.m */; };
 		408A62B62A12B33600E169DE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 408A62B52A12B33600E169DE /* SceneDelegate.m */; };
-		408A62B92A12B33600E169DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 408A62B82A12B33600E169DE /* ViewController.m */; };
+		408A62B92A12B33600E169DE /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 408A62B82A12B33600E169DE /* ItemsViewController.m */; };
 		408A62BC2A12B33600E169DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408A62BA2A12B33600E169DE /* Main.storyboard */; };
 		408A62BE2A12B33700E169DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408A62BD2A12B33700E169DE /* Assets.xcassets */; };
 		408A62C12A12B33700E169DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408A62BF2A12B33700E169DE /* LaunchScreen.storyboard */; };
 		408A62C42A12B33700E169DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 408A62C32A12B33700E169DE /* main.m */; };
+		408A62CB2A12CED500E169DE /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 408A62CA2A12CED500E169DE /* Item.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +23,15 @@
 		408A62B22A12B33600E169DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		408A62B42A12B33600E169DE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		408A62B52A12B33600E169DE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		408A62B72A12B33600E169DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		408A62B82A12B33600E169DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		408A62B72A12B33600E169DE /* ItemsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemsViewController.h; sourceTree = "<group>"; };
+		408A62B82A12B33600E169DE /* ItemsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemsViewController.m; sourceTree = "<group>"; };
 		408A62BB2A12B33600E169DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		408A62BD2A12B33700E169DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		408A62C02A12B33700E169DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		408A62C22A12B33700E169DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		408A62C32A12B33700E169DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		408A62CA2A12CED500E169DE /* Item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		408A62CC2A12CEDC00E169DE /* Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +68,10 @@
 				408A62B22A12B33600E169DE /* AppDelegate.m */,
 				408A62B42A12B33600E169DE /* SceneDelegate.h */,
 				408A62B52A12B33600E169DE /* SceneDelegate.m */,
-				408A62B72A12B33600E169DE /* ViewController.h */,
-				408A62B82A12B33600E169DE /* ViewController.m */,
+				408A62B72A12B33600E169DE /* ItemsViewController.h */,
+				408A62CA2A12CED500E169DE /* Item.m */,
+				408A62CC2A12CEDC00E169DE /* Item.h */,
+				408A62B82A12B33600E169DE /* ItemsViewController.m */,
 				408A62BA2A12B33600E169DE /* Main.storyboard */,
 				408A62BD2A12B33700E169DE /* Assets.xcassets */,
 				408A62BF2A12B33700E169DE /* LaunchScreen.storyboard */,
@@ -146,7 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				408A62B92A12B33600E169DE /* ViewController.m in Sources */,
+				408A62CB2A12CED500E169DE /* Item.m in Sources */,
+				408A62B92A12B33600E169DE /* ItemsViewController.m in Sources */,
 				408A62B32A12B33600E169DE /* AppDelegate.m in Sources */,
 				408A62C42A12B33700E169DE /* main.m in Sources */,
 				408A62B62A12B33600E169DE /* SceneDelegate.m in Sources */,
